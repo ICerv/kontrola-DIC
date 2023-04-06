@@ -1,5 +1,3 @@
-// const inputStr = prompt('Zadej DIČ:')
-
 const isDIC = (inputStr) => {
   // kontrola délky
   if (inputStr.length < 11) {
@@ -24,6 +22,7 @@ const isDIC = (inputStr) => {
   }
   return true;
 }
+
 console.log('Platná DIČ');
 console.log('CZ123456789', isDIC('CZ123456789'));
 console.log('CZ1234567890', isDIC('CZ1234567890'));
